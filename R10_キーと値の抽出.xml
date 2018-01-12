@@ -1,0 +1,29 @@
+XML から data タグのキー (name 属性) と値を列挙する形に書き換えよ
+
+例.
+<data name="SubjectUserSid">S-1-5-18</data>
+↓
+SubjectUserSid: S-1-5-18
+
+
+<data name="SubjectUserSid">S-1-5-18</data>
+<data name="SubjectUserName">DCDC$</data>
+<data name="SubjectDomainName">HOGEHOGE</data>
+<data name="SubjectLogonId">0x3e7</data>
+<data name="TargetUserSid">S-1-5-21-3653799664-32048462-2839516676-500</data>
+<data name="TargetUserName">Administrator</data>
+<data name="TargetDomainName">HOGEHOGE</data>
+<data name="TargetLogonId">0x3091ab</data>
+<data name="LogonType">3</data>
+<data name="LogonProcessName">Advapi</data>
+<data name="AuthenticationPackageName">MICROSOFT_AUTHENTICATION_PACKAGE_V1_0</data>
+<data name="WorkstationName">DC2</data>
+<data name="LogonGuid">{00000000-0000-0000-0000-000000000000}</data>
+<data name="TransmittedServices">-</data>
+<data name="LmPackageName">-</data>
+<data name="KeyLength">0</data>
+<data name="ProcessId">0x208</data>
+<data name="ProcessName">C:\Windows\System32\lsass.exe</data>
+<data name="IpAddress">192.168.11.111</data>
+<data name="IpPort">59152</data>
+<data name="ImpersonationLevel">%%1833</data>
